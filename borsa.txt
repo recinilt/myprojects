@@ -1,79 +1,79 @@
-1-hisseye değer biç.
+ï»¿1-hisseye deÄŸer biÃ§.
 
-normalde f/k oranı 10-15tir.
-yani, fiyatı, 10-15 yılda toplam ettiği kardır.
+normalde f/k oranÄ± 10-15tir.
+yani, fiyatÄ±, 10-15 yÄ±lda toplam ettiÄŸi kardÄ±r.
 
-yani f-k 10-15 arası olmalı.?
-yıllık karını 10-15 ile çarp, değeri budur?
-yani, değeri, özkaynak artı 10-15 yıllık karı???
+yani f-k 10-15 arasÄ± olmalÄ±.?
+yÄ±llÄ±k karÄ±nÄ± 10-15 ile Ã§arp, deÄŸeri budur?
+yani, deÄŸeri, Ã¶zkaynak artÄ± 10-15 yÄ±llÄ±k karÄ±???
 
-1 lot hissenin gerçek değeri, dd defter değeridir.
+1 lot hissenin gerÃ§ek deÄŸeri, dd defter deÄŸeridir.
 
 ***
-olması gereken piyasa değeri = 10 * (pd / fk) 
-1 lot = ogpd * halka açılan yüzde / toplam lot
+olmasÄ± gereken piyasa deÄŸeri = 10 * (pd / fk) 
+1 lot = ogpd * halka aÃ§Ä±lan yÃ¼zde / toplam lot
 
-peg oranı
+peg oranÄ±
 price earnng growth ratio
-fk/net kar büyüme oranı (gelecek yıllarda yüzde kaç büyüsün?) (marj, geçen yıldan farkı)
+fk/net kar bÃ¼yÃ¼me oranÄ± (gelecek yÄ±llarda yÃ¼zde kaÃ§ bÃ¼yÃ¼sÃ¼n?) (marj, geÃ§en yÄ±ldan farkÄ±)
 
 
-x peg= 32/20 = 1,6   yani pahalı.
+x peg= 32/20 = 1,6   yani pahalÄ±.
 
-asels=9,92 / 25,8 = 0,38 alınabilir
-karı 4 kat artacaksa, hisse fiyatı da 
+asels=9,92 / 25,8 = 0,38 alÄ±nabilir
+karÄ± 4 kat artacaksa, hisse fiyatÄ± da 
 minimum 2-2,5
 maks 6 kat artar.
 
 
--3 yıl sonra bu şirketin cirosu ne olur?
+-3 yÄ±l sonra bu ÅŸirketin cirosu ne olur?
 
-kar katı+ esas faaliyet kar katı  /2 = pd nin eskiden şimdiye kaç kat artacağıdır.
+kar katÄ±+ esas faaliyet kar katÄ±  /2 = pd nin eskiden ÅŸimdiye kaÃ§ kat artacaÄŸÄ±dÄ±r.
 
-şimdiki kar/eskidenki kar
-şimdiki esas faaliyet karı / eskidenki faaliyet karı
-GEÇMİŞTEKİ FK LARA MUTLAKA DÖNER
+ÅŸimdiki kar/eskidenki kar
+ÅŸimdiki esas faaliyet karÄ± / eskidenki faaliyet karÄ±
+GEÃ‡MÄ°ÅTEKÄ° FK LARA MUTLAKA DÃ–NER
 
-yükselişteki bir şeyi 15 fk ya kadar alabilirsin.
+yÃ¼kseliÅŸteki bir ÅŸeyi 15 fk ya kadar alabilirsin.
 
-YENİ YATIRIM YAPANLARI BULMAK İÇİN, SON 2-3 AYDA PD-DD ORANI, ESKİLERE GÖRE DAHA ÖNCEKİ ZİRVELERİN ÜZERİNE ÇIKMIŞ HİSSELERE BAK.
+YENÄ° YATIRIM YAPANLARI BULMAK Ä°Ã‡Ä°N, SON 2-3 AYDA PD-DD ORANI, ESKÄ°LERE GÃ–RE DAHA Ã–NCEKÄ° ZÄ°RVELERÄ°N ÃœZERÄ°NE Ã‡IKMIÅ HÄ°SSELERE BAK.
 
-mesela geçmişte pd/dd en fazla 1.5 miş, amaşimdi 1.7ye çıkmış.
+mesela geÃ§miÅŸte pd/dd en fazla 1.5 miÅŸ, amaÅŸimdi 1.7ye Ã§Ä±kmÄ±ÅŸ.
 onun faaliyet raporunu oku, orada bir hikaye olabilir.
 
-1- önceki (3-5 yıllık) fiyatlarının rekorunu kırıyor.
-2- geçmiş pd/dd 1,5 in altındaysa ve son 3 ayda 1,55 in üzerindeyse.
-(3-5 yıl?)
-(f/k yukarı kırsa da bir sinyaldir.
-4-şirketin satışı 300milyon iken faaliyet raporunda 2 yıl içinde satışları 1milyara çıkartacaz diyorsa.
-300milyon ciro. kar marjı yüzde 10. 30milyon da net kar olsun.
-1milyara çıkınca, yatırım sebebiyle kar marjı da yüzde 13 olsun.
+1- Ã¶nceki (3-5 yÄ±llÄ±k) fiyatlarÄ±nÄ±n rekorunu kÄ±rÄ±yor.
+2- geÃ§miÅŸ pd/dd 1,5 in altÄ±ndaysa ve son 3 ayda 1,55 in Ã¼zerindeyse.
+(3-5 yÄ±l?)
+(f/k yukarÄ± kÄ±rsa da bir sinyaldir.
+4-ÅŸirketin satÄ±ÅŸÄ± 300milyon iken faaliyet raporunda 2 yÄ±l iÃ§inde satÄ±ÅŸlarÄ± 1milyara Ã§Ä±kartacaz diyorsa.
+300milyon ciro. kar marjÄ± yÃ¼zde 10. 30milyon da net kar olsun.
+1milyara Ã§Ä±kÄ±nca, yatÄ±rÄ±m sebebiyle kar marjÄ± da yÃ¼zde 13 olsun.
 kar da 130milyon olsun.
-30milyondan 130 milyona kar 4 kat artıyor.
-o zaman hisse fiyatı da 2-3 kat artar.
-5-faaliyet raporlarının tutup tutmadığını da, geçmiş 3 yılın faaliyet raporlarını okuyup, tutturabilmişler mi bakarak yapılır.
-ne hedef vermişler, normal bir yılda (kriz olmayan) ne kadarını tutturabilmişler.
-satışlar %30 büyüyecek deyip ciro %5 büyümüşse, bu faaliyet raporuna da güvenilmez.
-6- hisseye fiyat biç.
-cirosu 450milyona, karı 100milyona gelirse ne olur?
-karı 30m den 100 m ye çıkıyorsa, yani 3 kat artıyorsa, hisse fiyatı da en az 2 kat artar.
-7- güvenip almaya karar verdiğin hisseye de kademeli eklemeler yap. düşüşler alış fırsatıdır. sabret.
+30milyondan 130 milyona kar 4 kat artÄ±yor.
+o zaman hisse fiyatÄ± da 2-3 kat artar.
+5-faaliyet raporlarÄ±nÄ±n tutup tutmadÄ±ÄŸÄ±nÄ± da, geÃ§miÅŸ 3 yÄ±lÄ±n faaliyet raporlarÄ±nÄ± okuyup, tutturabilmiÅŸler mi bakarak yapÄ±lÄ±r.
+ne hedef vermiÅŸler, normal bir yÄ±lda (kriz olmayan) ne kadarÄ±nÄ± tutturabilmiÅŸler.
+satÄ±ÅŸlar %30 bÃ¼yÃ¼yecek deyip ciro %5 bÃ¼yÃ¼mÃ¼ÅŸse, bu faaliyet raporuna da gÃ¼venilmez.
+6- hisseye fiyat biÃ§.
+cirosu 450milyona, karÄ± 100milyona gelirse ne olur?
+karÄ± 30m den 100 m ye Ã§Ä±kÄ±yorsa, yani 3 kat artÄ±yorsa, hisse fiyatÄ± da en az 2 kat artar.
+7- gÃ¼venip almaya karar verdiÄŸin hisseye de kademeli eklemeler yap. dÃ¼ÅŸÃ¼ÅŸler alÄ±ÅŸ fÄ±rsatÄ±dÄ±r. sabret.
 
-1- 3-5 yıllık fiyat rekorunu geçmişleri al.
-pd/dd geçmiş 3-5 yılın zirvesini geçenleri al. (demek ki ileride öz varlığına daha fazla ekleyecek.
-2-uzun vadeli yatırım, ev alır gibi alınır. faaliyet raporları okunarak.
-3- şuanki fiyatı belirle.
-geçmişte kar ettiği sıralarda fk sı neydi?
-3-4 yıl içinde karı nereye çıkabilir?
-bu karı 15 ile çarp. pd yi bulursun.
-4- sonra da yatırımını yap. haberleri takip et.
+1- 3-5 yÄ±llÄ±k fiyat rekorunu geÃ§miÅŸleri al.
+pd/dd geÃ§miÅŸ 3-5 yÄ±lÄ±n zirvesini geÃ§enleri al. (demek ki ileride Ã¶z varlÄ±ÄŸÄ±na daha fazla ekleyecek.
+2-uzun vadeli yatÄ±rÄ±m, ev alÄ±r gibi alÄ±nÄ±r. faaliyet raporlarÄ± okunarak.
+3- ÅŸuanki fiyatÄ± belirle.
+geÃ§miÅŸte kar ettiÄŸi sÄ±ralarda fk sÄ± neydi?
+3-4 yÄ±l iÃ§inde karÄ± nereye Ã§Ä±kabilir?
+bu karÄ± 15 ile Ã§arp. pd yi bulursun.
+4- sonra da yatÄ±rÄ±mÄ±nÄ± yap. haberleri takip et.
 
-3-5 YILKİ FK ORTALAMASI, KAR MARJIDIR???
-İSTİKRARLI BİR ŞEKİLDE FK SI 30 OLAN BİR ŞİRKETİN, KAR BÜYÜME ORANI (KAR MARJI) DA 30DUR.
+3-5 YILKÄ° FK ORTALAMASI, KAR MARJIDIR???
+Ä°STÄ°KRARLI BÄ°R ÅEKÄ°LDE FK SI 30 OLAN BÄ°R ÅÄ°RKETÄ°N, KAR BÃœYÃœME ORANI (KAR MARJI) DA 30DUR.
 
-satış ve karlılık
-önce pd/dd çıkıyor, ardından f/k çıkıyor
-oyak grubu, koç grubu, sabancı grubu çok karlı, yatırımcısını üzmüyor.
+satÄ±ÅŸ ve karlÄ±lÄ±k
+Ã¶nce pd/dd Ã§Ä±kÄ±yor, ardÄ±ndan f/k Ã§Ä±kÄ±yor
+oyak grubu, koÃ§ grubu, sabancÄ± grubu Ã§ok karlÄ±, yatÄ±rÄ±mcÄ±sÄ±nÄ± Ã¼zmÃ¼yor.
 
 
 
@@ -90,7 +90,7 @@ tuclk
 
 
 
-soda al. çocuklara öneriymiş???
+soda al. Ã§ocuklara Ã¶neriymiÅŸ???
 
 
 
@@ -100,42 +100,42 @@ soda al. çocuklara öneriymiş???
 
 kademeli al
 kademeli sat
-güncel değer biç
+gÃ¼ncel deÄŸer biÃ§
 
 
 
-hikayesi, bilançosu iyi olan hisseyi ucuzdan kademeli al,
+hikayesi, bilanÃ§osu iyi olan hisseyi ucuzdan kademeli al,
 3-5 hisseyi incele takibe al.
 kendine 5-10-20-30 hedef kar koy ve sat.
 pd/dd 
 
-kendine hayrı olmayan şirketin yatırımcısına hayrı olmaz:karsan?
+kendine hayrÄ± olmayan ÅŸirketin yatÄ±rÄ±mcÄ±sÄ±na hayrÄ± olmaz:karsan?
 
 soda 6,29->8,56
-bagfs 3-5 yıl beklesen bile olur
+bagfs 3-5 yÄ±l beklesen bile olur
 isyat?,
-sasa 3-5 yıl beklesen de olur
+sasa 3-5 yÄ±l beklesen de olur
 
 
 
-sermayesi düşük olsun ki çabuk çıksın???
+sermayesi dÃ¼ÅŸÃ¼k olsun ki Ã§abuk Ã§Ä±ksÄ±n???
 
 -----
 sasa
-830m/16m=50kat artmış 1 lot
+830m/16m=50kat artmÄ±ÅŸ 1 lot
 
 
 
 
 ------
 egeen
-şuanki öz sermaye (veya da piyasa değeri de alınabilir) / başlangıçtaki sermaye = kar katı.
-sermaye*halka açık oran/lot sayısı  lot başlangıç fiyatı kuruş?
-kar katı * başlangıç fiyatı: şuanki fiyat
+ÅŸuanki Ã¶z sermaye (veya da piyasa deÄŸeri de alÄ±nabilir) / baÅŸlangÄ±Ã§taki sermaye = kar katÄ±.
+sermaye*halka aÃ§Ä±k oran/lot sayÄ±sÄ±  lot baÅŸlangÄ±Ã§ fiyatÄ± kuruÅŸ?
+kar katÄ± * baÅŸlangÄ±Ã§ fiyatÄ±: ÅŸuanki fiyat
 
-2217/3  kar katı 739
+2217/3  kar katÄ± 739
 
-3150*0,34/26   =baştaki lot tutarı 41 krş 0,4tl
+3150*0,34/26   =baÅŸtaki lot tutarÄ± 41 krÅŸ 0,4tl
 
 
 
@@ -143,17 +143,27 @@ kar katı * başlangıç fiyatı: şuanki fiyat
 pd 1milyar
 1 lot 9,66
 toplam lot 29,7milyon
-halka açık: %34
+halka aÃ§Ä±k: %34
 
 sasa
 t.lot 350m
 1 lot 10,21
-halka açık: %15
+halka aÃ§Ä±k: %15
 
 
 
-Haftalık Bulten (Gedik Yatırım)
+HaftalÄ±k Bulten (Gedik YatÄ±rÄ±m)
 
 
 Teknik Takibimizde Olan Hisseler
 Bu hafta teknik takibimizdeki hisseler: KCHOL, KORDS, MAVI, ODAS, TATGD
+
+
+--------------
+
+
+16.02.2020
+
+pd/dd 1in altÄ±ndaysa, demek ki ÅŸimdi satÄ±lsa bile sÄ±kÄ±ntÄ± yok.
+ama pd/dd, 1in Ã¼zerindeyken, f/k 15in Ã¼zerindeyse almak sÄ±kÄ±ntÄ±.
+
