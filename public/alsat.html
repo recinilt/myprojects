@@ -9,18 +9,19 @@
 <body>
 
     <div data-ng-app="myApp" data-ng-controller="myCtrl">
-
-        hisse maaliyeti: <input type="number" data-ng-model="maaliyet"><br>
-        kar etmek istediğin yüzde: <input type="number" data-ng-model="kar"><br>
+        Lot sayısı: <input type="number" data-ng-model="adet"> adet<br>
+        Hisse maaliyeti: <input type="number" data-ng-model="maaliyet"> TL<br>
+        Kar etmek istediğin yüzde: %<input type="number" data-ng-model="kar"><br>
         <br>
-        Hisseyi satman gereken fiyat: {{hisseSon()}}
+        Hisseyi satman gereken fiyat: {{hisseSon()}} TL<br>
+        Toplam ele geçecek tutar: {{hisseSon() * adet}} TL
         
         </div>
         
         <script>
         var app = angular.module('myApp', []);
         app.controller('myCtrl', function($scope) {
-           
+           $scope.adet=1;
             $scope.maaliyet= 100;
           $scope.kar= 5;
             
