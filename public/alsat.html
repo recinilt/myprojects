@@ -25,8 +25,8 @@
         <br>
         Yüzdelik kazancın: <span style="color: red;">% {{farkyuzde()}}</span><br>
         
-        Toplam ele geçecek tutar: <span style="color:green;">{{adet2 * fiyat2}}</span> TL <br>
-        Elde ettiğin elde ettiğin kar: <span style="color: blue;">{{adet2 * fiyat2 - adet2 * maaliyet2}} </span>  TL<br>
+        Toplam ele geçecek tutar: <span style="color:green;">{{mytutar2()}}</span> TL <br>
+        Elde ettiğin elde ettiğin kar: <span style="color: blue;">{{mykar2()}} </span>  TL<br>
 
         </div>
         
@@ -53,6 +53,18 @@
             $scope.farkyuz *= 100;
             $scope.farkyuz = Number($scope.farkyuz).toFixed(2);
             return $scope.farkyuz;
+            }
+
+            $scope.mytutar2 = function(){
+              $scope.tutar2 = $scope.adet2 * $scope.fiyat2;
+              $scope.tutar2 = Number($scope.tutar2).toFixed(2);
+              return $scope.tutar2;
+            }
+
+            $scope.mykar2 = function(){
+              $scope.kar3 =  ($scope.adet2 * $scope.fiyat2) - ($scope.adet2 * $scope.maaliyet2);
+              $scope.kar3 = Number($scope.kar3).toFixed(2);
+              return $scope.kar3;
             }
 
 
