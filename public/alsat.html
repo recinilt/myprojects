@@ -9,13 +9,25 @@
 <body>
 
     <div data-ng-app="myApp" data-ng-controller="myCtrl">
+        <h5>%X KAR ETMEK İÇİN KAÇTAN SATMAN GEREKLİ?  :</h5>
         Lot sayısı: <input type="number" data-ng-model="adet"> adet<br>
         Hisse maaliyeti: <input type="number" data-ng-model="maaliyet"> TL<br>
         Kar etmek istediğin yüzde: %<input type="number" data-ng-model="kar"><br>
         <br>
-        Hisseyi satman gereken fiyat: {{hisseSon()}} TL<br>
-        Toplam ele geçecek tutar: {{hisseSon() * adet}} TL
+        Hisse 1 adet lotu satman gereken fiyat: <span style="color: red;">{{hisseSon()}} </span>  TL<br>
+        Toplam ele geçecek tutar: <span style="color:blue;">{{hisseSon() * adet}}</span> TL
         
+        <hr>
+        <h5>SATMAK İSTEDİĞİN FİYATTAKİ KAZANÇ ORANI NE?  :</h5>
+        Lot sayısı: <input type="number" data-ng-model="adet2"> adet<br>
+        Hisse maaliyeti: <input type="number" data-ng-model="maaliyet2"> TL<br>
+        Kaçtan satmak istiyorsun? <input type="number" data-ng-model="fiyat2"><br>
+        <br>
+        Yüzdelik kazancın: <span style="color: red;">% {{farkyuzde()}}</span><br>
+        
+        Toplam ele geçecek tutar: <span style="color:green;">{{adet2 * fiyat2}}</span> TL <br>
+        Elde ettiğin elde ettiğin kar: <span style="color: blue;">{{adet2 * fiyat2 - adet2 * maaliyet2}} </span>  TL<br>
+
         </div>
         
         <script>
@@ -30,6 +42,20 @@
             $scope.toplam=$scope.toplam.toFixed(2);
             return $scope.toplam;
             }
+
+            $scope.adet2=1;
+            $scope.maaliyet2= 100;
+          $scope.fiyat2= 105;
+            
+            $scope.farkyuzde= function(){
+            $scope.fark = $scope.fiyat2 - $scope.maaliyet2;
+            $scope.farkyuz = $scope.fark / $scope.maaliyet2;
+            $scope.farkyuz *= 100;
+            $scope.farkyuz = Number($scope.farkyuz).toFixed(2);
+            return $scope.farkyuz;
+            }
+
+
           
         });
         </script>
