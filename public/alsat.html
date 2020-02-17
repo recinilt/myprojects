@@ -58,7 +58,7 @@
             }
 
             $scope.netkar1 = function(){
-              return Number(($scope.hisseSon() * $scope.adet) + ($scope.maaliyet * $scope.adet)).toFixed(2);
+              return Number(($scope.hisseSon() * $scope.adet) - ($scope.maaliyet * $scope.adet)).toFixed(2);
             }
 
             $scope.adet2=1;
