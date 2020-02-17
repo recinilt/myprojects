@@ -28,7 +28,8 @@
         Kar etmek istediğin yüzde: %<input type="number" data-ng-model="kar"><br>
         <br>
         1 adet lotu satman gereken fiyat: <span style="color: red;">{{hisseSon()}} </span>  TL<br>
-        Toplam ele geçecek tutar: <span style="color:blue;">{{hisseSon() * adet}}</span> TL
+        Toplam ele geçecek tutar: <span style="color:blue;" >{{hisseSon() * adet}}</span> TL <br>
+        Toplam net kar: <span style="color: green;">{{netkar1() }}</span>
         
         <hr>
         <h5 class="baslik">SATMAK İSTEDİĞİN FİYATTAKİ KAZANÇ ORANI NE?  :</h5>
@@ -54,6 +55,10 @@
             $scope.toplam=$scope.maaliyet + ($scope.maaliyet * $scope.kar * 0.01);
             $scope.toplam=$scope.toplam.toFixed(2);
             return $scope.toplam;
+            }
+
+            $scope.netkar1 = function(){
+              return Number(($scope.hisseSon() * $scope.adet) + ($scope.maaliyet * $scope.adet)).toFixed(2);
             }
 
             $scope.adet2=1;
