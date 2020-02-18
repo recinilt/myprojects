@@ -1,9 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html  lang="tr"  xmlns:og="http://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>alsat</title>
+    <title>Hisse Hesap</title>
+
+
+    <meta property = "og: type" content = "website" />
+    <meta property = "og: title" content = "Hisse Hesap" />
+    <meta property = "og: description" content = "Borsa Hisse Hesaplama İşlemleri" />
+    <meta property = "og: image" content = "img/icon.jpg" />
+    <meta property = "og: url" content = "https://www.recinilt.tk/alsat.html" />
+    <meta property = "og: site_name" content = "Recep YENİ" />
+    
+        <!-- Required meta tags -->
+        
+    
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="Content-Type" content="text/html; ">
+        <meta http-equiv="Content-Language" content="tr">
+        <meta name="keywords" content="borsa, hisse, hesap, hesaplama">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="Recep YENİ">
+        <!-- <meta http-equiv="refresh" content="500">  -->
+        <!-- <title>merhabalar Patent, Arduino, Subtitle Reader, WebDesign</title> -->
+        <meta name="description" content="Borsa hisse senedi yüzdelik hesaplamalarınızda kolaylık sağlar. ">
+    
+    
+
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <style>
        .baslik {
@@ -32,7 +59,7 @@
         Toplam net kar: <span style="color: green;">{{netkar1() }}</span>
         <ul>
           <li ng-repeat="x in products">
-            {{x.name}} hissesini %{{x.kar}} ile satmak için {{x.tutar}} fiyattan satman gerek.<span ng-click="removeItem($index)">&times;</span>
+            <span style="color:orange;">{{x.name}}</span> * <span style="color: green;">%{{x.kar}}</span> = <span style="color: red;">{{x.tutar}}</span><span ng-click="removeItem($index)">&times;</span>
           </li>
         </ul>
         Hisse ismi: <input type="text" ng-model="addMe">
