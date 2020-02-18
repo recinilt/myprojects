@@ -32,10 +32,10 @@
         Toplam net kar: <span style="color: green;">{{netkar1() }}</span>
         <ul>
           <li ng-repeat="x in products">
-            {{x}}<span ng-click="removeItem($index)">&times;</span>
+            {{x.name}} hissesini %{{x.kar}} ile satmak için {{x.tutar}} fiyattan satman gerek.<span ng-click="removeItem($index)">&times;</span>
           </li>
         </ul>
-        Hisse ismi: <input ng-model="addMe">
+        Hisse ismi: <input type="text" ng-model="addMe">
         <button ng-click="addItem()">Ekle</button>
         <p>{{errortext}}</p>
         <hr>
@@ -94,18 +94,25 @@
 
             $scope.products = [];
   $scope.addItem = function () {
-    $scope.hisseadi = "";
-    $scope.errortext = "";
+    //$scope.hisseadi = "";
+    //$scope.errortext = "";
     if (!$scope.addMe) {return;}
-    if ($scope.products.indexOf($scope.addMe) == -1) {
-      $scope.hisseadi = $scope.addMe + " hissesini %" + $scope.kar + " ile satmak için " + $scope.hisseSon() + " fiyattan satman gerek.";
+    //if ($scope.products.indexOf($scope.addMe) == -1) {
+      $scope.hisseadi = {};
+      $scope.hisseadi.name = $scope.addMe;
+      $scope.hisseadi.kar = $scope.kar;
+      $scope.hisseadi.tutar= $scope.hisseSon();
+
+      //$scope.addMe + " hissesini %" + $scope.kar + " ile satmak için " + $scope.hisseSon() + " fiyattan satman gerek.";
+      //$scope.products.push($scope.hisseadi.name + " hissesini %" + $scope.hisseadi.kar + " ile satmak için " + $scope.hisseadi.tutar + " fiyattan satman gerek.");
       $scope.products.push($scope.hisseadi);
-    } else {
-      $scope.errortext = "The item is already in your shopping list.";
-    }
+
+    //} else {
+    //  $scope.errortext = "The item is already in your shopping list.";
+    //}
   }
   $scope.removeItem = function (x) {
-    $scope.errortext = "";
+    //$scope.errortext = "";
     $scope.products.splice(x, 1);
   }
 
