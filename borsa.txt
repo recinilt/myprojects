@@ -174,3 +174,97 @@ en başarılı borsa kanalı:
 
 özkaynaklarını kaç kat artırabilirse, senin paran da o kadar artar.
 
+---------------------
+
+17.02.2019
+en başarılı borsa kanalının trade yaptığı hisseler:
+        net kar     5 yıllık kar %    sermaye   özsermaye   piyasadeğeri    pd/dd f/k 
+ipeke
+
+
+
+ODAS
+clebi
+bagfs
+kartn
+
+--------------------
+yaşar erdinç hisse analizi
+
+gün başı çok yüksek.
+11 e doğru alım yap.
+
+gün başında tepeden sat, dipten alış yap.
+
+
+------
+öz sermaye= tüm varlıklarından tüm borç vb çıkarılınca şu an elden çıkarılsa kapatılsa ele geçecek paradır.
+
+piyasa değeri = hisse fiyatı * sermaye.
+f/k oranı = öz sermaye / net kar.
+
+sermaye demek, kaç tane hissesinin olduğu demektir.
+normalde hisseler 1er kuruştur.
+ama 1 tl gibi kabul edilip hisse fiyatı ile sermaye çarpılınca piyasa değeri bulunur.
+
+pd/dd oranı 2 şeyden değişir. hisse fiyatı artıp azalması ile.
+bir de;
+hisse fiyatı sabit iken, bir şirketin karları artıyorsa, öz varlığı artıyordur, dolayısıyla pd/dd değeri düşer ***.
+pd/dd = piyasa değeri / özsermaye
+dolayısıyla, bir şirketin, hisse fiyatı sabit iken, pd/dd değerinin düşmesi demek, o şirketin öz sermayesi artıyor, karlılığı artıyor demektir.
+
+cari oran demek, 1 yılda alacaklarının, 1 yıllık borcuna oranıdır. 1.5 olması beklenir.???
+
+pd/dd, bir şirketin özvarlık karlılığının 10 katı olması lazım.
+mesela, dönemsel özsermaye karlılığı %50 ise,
+pd/dd oranı = 0,50 * 10 = 5 olmalı.
+5ten büyükse, demek ki piyasa pahalı gösteriyor. hisse senetleri pahalı yani.
+tabi, bunlar şuanki verilere göredir. 
+bu verilerle gidecekse doğru bir analiz.
+ama gelecekte daha da karlılaşacak mı?
+1-ne kadar kar edecek? bu karın kaç katı oluru hesaplamalı.
+2-bu hesaplanan kar özvarlığa eklenince yani özvarlık ne kadar olacak? ve dolayısıyla eğer özvarlık çok artarsa pd/dd değeri ne kadar düşecek?
+
+yıllık satış büyümesi? mesela son 2 yıl ortalamalarını al
+esas faaliyet kar marjı
+favök marjı
+net kar marjı
+
+bunlara bakarak gelecek 5 yıl hesaplanabilir
+favök /pd oranı
+pd=piyasa değeri
+
+kaydırılmış yıllık satışlar ve karlılık 
+yani son yıllıklandırılmış kara bak.
+mesela 250milyon
+son 5 yılın fk ortalamasını, mesela 12, al ve bununla çarp.
+böylece hesaplanan piyasa değerini bulursun. ama tabi, gelecek yıl böyle kar yaparsa pd si böyle olur.
+fk * yıllık kar = pd   olması gerekir. bunu da sermayeye bölünce olması gereken hisse fiyatı bulunur.
+bunu da cari sermayeye bölersek, 1 hisse senedinin fiyatını buluruz.
+yani, 
+hisse senedi = özsermaye / fk
+
+*****
+hisse senedi = fk * yıllık net kar / sermaye
+*****
+
+şuan olan hisse senedi = fk * yıllık net kar / sermaye
+olması gereken ise, özsermaye/sermaye ???
+
+bist endeks düşmediği halde aksa hissesi düşüşe geçmiş ise,
+yani endeksten daha olumsuz bir tablo varsa, piyasanın sevmediği bir durum var demektir.
+kar 160m 210m arasındaysa, 11in altında toplayacağım, 11-13 arasında seyredecem, 13 üzeri satacağım. yılda 2 kez yapılabilir bu. karlar 160-210 arası olduğu müddetçe yapılır.
+
+brisa
+soda
+bim
+
+bir şirketin pd/dd oranı 6 ise, özkaynak karlılığının %60 olması gereklidir.
+değilse, şişmiştir, söner.
+özkaynak karlılığı %26 ise, normalde pd/dd oranı 3 civarı olmalı.
+
+
+
+------------------
+
+
