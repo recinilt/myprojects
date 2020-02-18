@@ -30,7 +30,14 @@
         1 adet lotu satman gereken fiyat: <span style="color: red;">{{hisseSon()}} </span>  TL<br>
         Toplam ele geçecek tutar: <span style="color:blue;" >{{hisseSon() * adet}}</span> TL <br>
         Toplam net kar: <span style="color: green;">{{netkar1() }}</span>
-        
+        <ul>
+          <li ng-repeat="x in products">
+            {{x}}<span ng-click="removeItem($index)">&times;</span>
+          </li>
+        </ul>
+        Hisse ismi: <input ng-model="addMe">
+        <button ng-click="addItem()">Ekle</button>
+        <p>{{errortext}}</p>
         <hr>
         <h5 class="baslik">SATMAK İSTEDİĞİN FİYATTAKİ KAZANÇ ORANI NE?  :</h5>
         Lot sayısı: <input type="number" data-ng-model="adet2"> adet<br>
@@ -41,7 +48,7 @@
         
         Toplam ele geçecek tutar: <span style="color:green;">{{mytutar2()}}</span> TL <br>
         Elde ettiğin net kar: <span style="color: blue;">{{mykar2()}} </span>  TL<br>
-
+          
         </div>
         
         <script>
@@ -85,6 +92,22 @@
               return $scope.kar3;
             }
 
+            $scope.products = [];
+  $scope.addItem = function () {
+    $scope.hisseadi = "";
+    $scope.errortext = "";
+    if (!$scope.addMe) {return;}
+    if ($scope.products.indexOf($scope.addMe) == -1) {
+      $scope.hisseadi = $scope.addMe + " hissesini %" + $scope.kar + " ile satmak için " + $scope.hisseSon() + " fiyattan satman gerek.";
+      $scope.products.push($scope.hisseadi);
+    } else {
+      $scope.errortext = "The item is already in your shopping list.";
+    }
+  }
+  $scope.removeItem = function (x) {
+    $scope.errortext = "";
+    $scope.products.splice(x, 1);
+  }
 
           
         });

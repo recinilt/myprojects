@@ -1,0 +1,6 @@
+1-
+günlük hacime göre sırala.
+sayfadaki 7 günlük kar en yükseği bul
+onu al ve yüzde 5 karla sat???
+
+------
