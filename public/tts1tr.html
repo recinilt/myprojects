@@ -39,11 +39,16 @@
 
   function populateVoices() {
     voices = this.getVoices();
-    voicesDropdown.innerHTML = voices
+    var v1 =[];
+    var v1 = voices.map(voice => `<option value="${voice.name}">${voice.name} (${voice.lang})</option>`);
+    v1.push("<option value='Türkçe Türkiye' selected>Türkçe Türkiye (tr_TR)</option>");
+    v1.join('');
+    //voicesDropdown.innerHTML = voices
       //.filter(voice => voice.lang.includes('en'))
-      .map(voice => `<option value="${voice.name}">${voice.name} (${voice.lang})</option>`)
-      .push("<option value='Türkçe Türkiye' selected>Türkçe Türkiye (tr_TR)</option>")
-      .join('');
+      //.map(voice => `<option value="${voice.name}">${voice.name} (${voice.lang})</option>`)
+      //.join('');
+      voicesDropdown.innerHTML= v1;
+      console.log(v1);
   }
 
   function setVoice() {
