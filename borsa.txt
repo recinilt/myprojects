@@ -268,3 +268,10 @@ değilse, şişmiştir, söner.
 ------------------
 
 
+endeks düşerken
+1-turizm
+2-nakit zengini
+3-ihracatı fazla
+4-karlılığı fazla
+5-yatırım YAPANLARI
+6-eskideki düşüşlerde pek düşmeyen
