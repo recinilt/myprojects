@@ -60,7 +60,7 @@
         Toplam net kar: <span style="color: green;">{{netkar1() }}</span>
         <ul>
           <li ng-repeat="x in products">
-            <span style="color:orange;">{{x.name}}</span> * <span style="color: green;">%{{x.kar}}</span> = <span style="color: red;">{{x.tutar}}</span><span ng-click="removeItem($index)">&times;</span>
+            <span style="color:orange;">{{x.name}}</span> <span style="color:blue;">{{x.maaliyet}}</span> * <span style="color: green;">%{{x.kar}}</span> = <span style="color: red;">{{x.tutar}}</span><span ng-click="removeItem($index)">&times;</span>
           </li>
         </ul>
         Hisse ismi: <input type="text" ng-model="addMe">
@@ -130,8 +130,9 @@
                   var hiss=myhisseler[i].split(" ");
                   var myhisse ={};
                   myhisse.name = hiss[0];
-                  myhisse.kar = hiss[1];
-                  myhisse.tutar=hiss[2];
+                  myhisse.maaliyet=hiss[1];
+                  myhisse.kar = hiss[2];
+                  myhisse.tutar=hiss[3];
                   $scope.products.push(myhisse);
                   console.log(myhisse);
                 }
@@ -153,6 +154,7 @@
     //if ($scope.products.indexOf($scope.addMe) == -1) {
       $scope.hisseadi = {};
       $scope.hisseadi.name = $scope.addMe;
+      $scope.hisseadi.maaliyet=$scope.maaliyet;
       $scope.hisseadi.kar = $scope.kar;
       $scope.hisseadi.tutar= $scope.hisseSon();
 
@@ -165,7 +167,7 @@
                 //var myhisseler = localStorage.getItem("hisseler").split(" - ");
                 $scope.mylstore = [];
                 for(var i=0; i<$scope.products.length;i++){
-                  $scope.mylstore.push($scope.products[i].name + " "+ $scope.products[i].kar + " "+ $scope.products[i].tutar);
+                  $scope.mylstore.push($scope.products[i].name + " "+$scope.products[i].maaliyet + " "+ $scope.products[i].kar + " "+ $scope.products[i].tutar);
                 }
                 $scope.myhisseler3 = $scope.mylstore.join(" - ");
                 localStorage.setItem("hisseler",$scope.myhisseler3);
@@ -185,7 +187,7 @@
                 //var myhisseler = localStorage.getItem("hisseler").split(" - ");
                 $scope.mylstore = [];
                 for(var i=0; i<$scope.products.length;i++){
-                  $scope.mylstore.push($scope.products[i].name + " "+ $scope.products[i].kar + " "+ $scope.products[i].tutar);
+                  $scope.mylstore.push($scope.products[i].name + " "+ $scope.products[i].maaliyet + " "+ $scope.products[i].kar + " "+ $scope.products[i].tutar);
                 }
                 $scope.myhisseler3 = $scope.mylstore.join(" - ");
                 localStorage.setItem("hisseler",$scope.myhisseler3);
