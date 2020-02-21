@@ -120,7 +120,32 @@
               return $scope.kar3;
             }
 
+
+
             $scope.products = [];
+            if (typeof(Storage) !== "undefined") {
+              if (localStorage.getItem("hisseler")){
+                var myhisseler = localStorage.getItem("hisseler").split(" - ");
+                for(var i=0; i<myhisseler.length;i++){
+                  var hiss=myhisseler[i].split(" ");
+                  var myhisse ={};
+                  myhisse.name = hiss[0];
+                  myhisse.kar = hiss[1];
+                  myhisse.tutar=hiss[2];
+                  $scope.products.push(myhisse);
+                  console.log(myhisse);
+                }
+              }
+            }
+
+              // localStorage.setItem("hisseler", "Smith john 143 - fgr dkdm 334 - lms ksl 323");
+              
+              // console.log(myhisseler);
+              // var mylstor = myhisseler.join(" - ");
+              // localStorage.setItem("hisseler2",mylstor);
+             
+
+            
   $scope.addItem = function () {
     //$scope.hisseadi = "";
     //$scope.errortext = "";
@@ -135,14 +160,40 @@
       //$scope.products.push($scope.hisseadi.name + " hissesini %" + $scope.hisseadi.kar + " ile satmak için " + $scope.hisseadi.tutar + " fiyattan satman gerek.");
       $scope.products.push($scope.hisseadi);
 
+      if (typeof(Storage) !== "undefined") {
+              //if (localStorage.getItem("hisseler")){
+                //var myhisseler = localStorage.getItem("hisseler").split(" - ");
+                $scope.mylstore = [];
+                for(var i=0; i<$scope.products.length;i++){
+                  $scope.mylstore.push($scope.products[i].name + " "+ $scope.products[i].kar + " "+ $scope.products[i].tutar);
+                }
+                $scope.myhisseler3 = $scope.mylstore.join(" - ");
+                localStorage.setItem("hisseler",$scope.myhisseler3);
+      }
+  }
     //} else {
     //  $scope.errortext = "The item is already in your shopping list.";
     //}
-  }
+  
+
   $scope.removeItem = function (x) {
     //$scope.errortext = "";
     $scope.products.splice(x, 1);
+
+    if (typeof(Storage) !== "undefined") {
+              //if (localStorage.getItem("hisseler")){
+                //var myhisseler = localStorage.getItem("hisseler").split(" - ");
+                $scope.mylstore = [];
+                for(var i=0; i<$scope.products.length;i++){
+                  $scope.mylstore.push($scope.products[i].name + " "+ $scope.products[i].kar + " "+ $scope.products[i].tutar);
+                }
+                $scope.myhisseler3 = $scope.mylstore.join(" - ");
+                localStorage.setItem("hisseler",$scope.myhisseler3);
+    }
   }
+
+
+  
 
           
         });
