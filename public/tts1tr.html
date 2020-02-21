@@ -41,7 +41,7 @@
     voices = this.getVoices();
     var v1 =[];
     var v1 = voices.map(voice => `<option value="${voice.name}">${voice.name} (${voice.lang})</option>`);
-    v1.push("<option value='Türkçe Türkiye' selected>Türkçe Türkiye (tr_TR)</option>");
+    v1.push('<option value="Google Türkçe" selected>Google Türkçe (tr_TR)</option>');
     v1.join('');
     //voicesDropdown.innerHTML = voices
       //.filter(voice => voice.lang.includes('en'))
@@ -49,7 +49,7 @@
       //.join('');
       voicesDropdown.innerHTML= v1;
       console.log(v1);
-      msg.voice = "Türkçe Türkiye";
+      msg.voice = "Google Türkçe";
     toggle();
   }
 
