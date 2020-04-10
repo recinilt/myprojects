@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <p>
+        <div id="mytext"></div>
+    </p>
+    <input type="file">
+
+    <script>
+        var input = document.querySelector("input[type='file']");
+        var myfile = "";
+        const regextosentences = /\n?^[0-9]{1,99}$\n[0-9]{2}[:]\d{2}\:\d{2}.*/gm;
+        const regextotimes = /^[0-9]{2}:[0-9]{2}:[0-9]{2}/gm;
+        var regexToSpace = /([&].{1,12}[;])|[!-@\[-`\{-~][a-zA-Z][!-@\[-`\{-~]?[!-@\[-`\{-~]|(["-&])|([\(-\+])|([-])|([/@])|([<->])|([\[-`])|([\{-~])/gmui;
+        var regexToComma = /([!\?:\n;])/gmui;
+
+        var mysentences = [];
+        var mytimes = [];
+
+        input.addEventListener("change", function (e) {
+            console.log(input.files);
+            console.log(input.files[0].name);
+
+            var reader = new FileReader();
+            reader.onload = function () {
+
+                myfile = reader.result;
+                console.log(myfile);
+                // var lines = reader.result.split("\n").map(function(line){
+                //     return line.split(",");
+                // })
+                // console.log(lines);
+                mysentences = myfile.split(regextosentences);
+                for (var i = 0; i < mysentences.length; i++) {
+                    mysentences[i] = mysentences[i].replace(regexToSpace, " ");
+                    mysentences[i] = mysentences[i].replace(regexToComma, ",");
+                }
+
+
+                mysentences.shift();
+                console.log(mysentences);
+                ////
+                let m;
+                var mytimes = [];
+                while ((m = regextotimes.exec(myfile)) !== null) {
+                    // This is necessary to avoid infinite loops with zero-width matches
+                    if (m.index === regextotimes.lastIndex) {
+                        regextotimes.lastIndex++;
+                    }
+
+                    // The result can be accessed through the `m`-variable.
+                    m.forEach((match, groupIndex) => {
+                        console.log(`Found match, group ${groupIndex}: ${match}`);
+
+                        mytimes.push(match);
+
+                    });
+
+                }
+                console.log(mytimes);
+
+                console.log(mytimes.length);
+                console.log(mysentences.length);
+            }
+            reader.readAsText(input.files[0]);
+            // reader.readAsDataURL(input.files[0])
+        }, false);
+
+        ///////////////////////
+        
+
+        $(document).ready(function () {
+        });
+    </script>
+</body>
+
+</html>
