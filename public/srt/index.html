@@ -16,6 +16,7 @@
     </p>
     <input type="file">
     <button id="basla" onclick="basla()">başla</button>
+    <button onclick="bitir()">Bitir</button>
 
     <script>
         var input = document.querySelector("input[type='file']");
@@ -157,9 +158,15 @@ mytts.totts("merhabalar. nasılsın?");
                 if(mybaslasecs.indexOf(nts)>-1){
                     console.log(mysentences[mybaslasecs.indexOf(nts)]);
                     mytts.totts(mysentences[mybaslasecs.indexOf(nts)]);
+                    mysentences[mybaslasecs.indexOf(nts)] += "a";
                 }
             }, 1000);
+            function bitir(){
+            clearInterval(dongu);
+        };
+            
         }
+        
 
     </script>
 </body>
