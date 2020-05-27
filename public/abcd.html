@@ -30,12 +30,21 @@ var bh = document.getElementById("bh");
 
 console.log(aa.value);
 function hesapla(){
+    if (aa.value > bb.value){
     var d = cc.value - (aa.value - bb.value);
     dd.innerHTML = d;
-    sl.innerHTML = d - ((aa.value - bb.value) * 0.38);
-    kh.innerHTML = d + ((aa.value - bb.value) * 0.38);
-    bh.innerHTML = d + ((aa.value - bb.value) * 0.61)
+    sl.innerHTML = d - ((aa.value - bb.value) * 0.382);
+    kh.innerHTML = d + ((aa.value - bb.value) * 0.382);
+    bh.innerHTML = d + ((aa.value - bb.value) * 0.618)
     console.log(aa.value);
+    } else {
+        var d = Number(cc.value) + Number((bb.value - aa.value));
+    dd.innerHTML = d;
+    sl.innerHTML = d + ((bb.value - aa.value) * 0.382);
+    kh.innerHTML = d - ((bb.value - aa.value) * 0.382);
+    bh.innerHTML = d - ((bb.value - aa.value) * 0.618)
+    console.log(aa.value);
+    }
 }
 
 </script>
