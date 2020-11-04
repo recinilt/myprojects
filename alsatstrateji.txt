@@ -1,0 +1,12 @@
+1-
+günlük hacime göre sırala.
+sayfadaki 7 günlük kar en yükseği bul
+onu al ve yüzde 5 karla sat???
+
+------
+2-
+günlük kazandırma yüzdesine göre sırala.
+haftalık kazandırma yüzdesi de günlüğe yakınsa, demek ki yükseliş trendindedir.
+hemen al. %10-15 karla sat?
+
+---------------
