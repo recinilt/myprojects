@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
     
 </head>
 <body>
@@ -16,7 +16,8 @@
     <p>Kazanç Oranı: %<input type="number" name="" id="oran"></p>
     <p>Adetteki Eklenti: <input type="number" name="" id="kesinti"></p>
     <button id="buton">Hesapla</button>
-    <p>Sonuç: <span id="sonuc"></span></p>
+    <p>Sonuç: <span id="sonuc" style="color: red;"></span></p>
+    <p>Kaç Kat Kazanç: <span id="kazanc" style="color: red;"></span> </p> 
     <p><span id="deneme"></span></p>
 
 
@@ -31,6 +32,7 @@
             var kesinti = document.getElementById("kesinti");
             var sonuc = document.getElementById("sonuc");
             var buton = document.getElementById("buton");
+            var kazanc = document.getElementById("kazanc");
             var deneme = document.getElementById("deneme");
             anapara.value=8000;
             oran.value=36;
@@ -48,8 +50,9 @@
                 var mysonuc=kademeli(myanapara,myadet,myoran,mykesinti);
                 mysonuc = Number(mysonuc).toFixed(2);
                 sonuc.innerHTML=mysonuc;
-                console.log(myoran);
-                
+                var mykazanc = (mysonuc / myanapara - 1).toFixed(2);
+                kazanc.innerHTML=mykazanc;                
+                console.log(myoran);                
             };
 
             anapara.addEventListener("keyup",hesaplala);
