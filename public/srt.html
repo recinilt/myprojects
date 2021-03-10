@@ -154,7 +154,7 @@
         })();
 
 
-        mytts.totts("merhabalar. nasılsın?");
+        mytts.totts("merhabalar. nasılsın?",1,4);
         ///////////////////
         //şuanki saat dakika saniyeleri saniyeye dönüştüren fonksiyon:
         function nowtosec() {
@@ -183,7 +183,7 @@
                 nts = nowtosec();
                 if (mybaslasecs.indexOf(nts) > -1) {
                     console.log(mysentences[mybaslasecs.indexOf(nts)]);
-                    mytts.totts(mysentences[mybaslasecs.indexOf(nts)]);
+                    mytts.totts(mysentences[mybaslasecs.indexOf(nts)],1,4);
                     mysentences[mybaslasecs.indexOf(nts)] += "a";
                 }
             }, 1000);
